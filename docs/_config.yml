@@ -1,5 +1,5 @@
 remote_theme: pages-themes/cayman@v0.2.0
-title: 🦥 SlothAPI - My Python Web Framework 
+title: 🦥 SlothAPI
 description:  This project is a study of PEP 3333 and an attempt to create my own WSGI-compliant web framework to understand how things work under the hood.
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
