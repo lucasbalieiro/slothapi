@@ -1,0 +1,2 @@
+[run]
+omit = .venv/*,test_api.py,conftest.py,app.py

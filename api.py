@@ -1,5 +1,7 @@
 from webob import Request, Response
 from typing import Callable, Dict
+from requests import Session as RequestsSession
+from wsgiadapter import WSGIAdapter as RequestsWSGIAdapter
 from parse import parse
 import inspect
 
@@ -56,3 +58,8 @@ class API:
     def default_response(self, response: Response):
         response.status_code = 404
         response.text = "Not found."
+
+    def test_session(self, base_url="http://testserver"):
+        session = RequestsSession()
+        session.mount(prefix=base_url, adapter=RequestsWSGIAdapter(self))
+        return session

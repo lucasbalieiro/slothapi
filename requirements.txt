@@ -2,3 +2,6 @@ gunicorn==22.0.0
 webob==1.8.7
 parse==1.20.2
 pytest==8.2.2
+requests==2,32,3
+requests-wsgi-adapter==0.4.1
+pytest-cov==5.0.0
