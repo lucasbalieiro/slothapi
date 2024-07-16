@@ -16,3 +16,11 @@ def about(request, response):
 @app.route("/hello/{name}")
 def greeting(request, response, name):
     response.text = f"Hello, {name}"
+
+@app.route("/crud")
+class CrudResource:
+    def get(self, req, resp):
+        resp.text = "R of CRUD Page"
+
+    def post(self, req, resp):
+        resp.text = "C of CRUD page"
