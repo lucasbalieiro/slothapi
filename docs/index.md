@@ -11,3 +11,5 @@ Welcome to SlothAPI, a project to study and understand the inner workings of web
 1. [Get Started](./getting-started.md)
 2. [Understand the basics of Web Servers and WSGI](./introduction-wsgi.md)
 3. [Building Your First WSGI Application](./building-first-wsgi-app.md)
+4. [Exploring WSGI Middleware](./wsgi-middleware.md)
+
