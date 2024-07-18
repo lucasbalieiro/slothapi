@@ -119,4 +119,4 @@ Middleware can be used for various purposes, including:
 - **Security**: Implement security features like input validation and output escaping.
 
 ## Next Step:
-[Starting the SlothAPI: Requests and routing](./requests-and_routing.md)
+[Starting the SlothAPI: Requests and routing](./requests-and-routing.md)
